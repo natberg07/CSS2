@@ -1,0 +1,79 @@
+/*----------- General Background -----------*/
+body {
+  background: url('https://cdn.pixabay.com/photo/2015/09/18/20/23/africa-942868_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f5f5dc;
+  font-family: 'Georgia', serif;
+}
+
+/*----------- Den Container -----------*/
+.container.main {
+  background: rgba(34, 34, 34, 0.85);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+/*----------- Headers -----------*/
+h1, h2, h3, h4 {
+  color: #ffd700;
+  text-shadow: 1px 1px 3px #222;
+}
+
+/*----------- Links -----------*/
+a, a:visited {
+  color: #ffbe76;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ff7979;
+}
+
+/*----------- Lion Image Frame -----------*/
+.img-thumbnail {
+  border: 2px solid #ffd700 !important;
+  border-radius: 8px;
+}
+
+/*----------- Sidebar (User Panel) -----------*/
+.col-md-3 {
+  background: rgba(40, 40, 40, 0.92);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/*----------- Tables -----------*/
+.table {
+  background: rgba(0,0,0,0.4);
+  color: #fceabb;
+}
+
+/*----------- Buttons -----------*/
+.btn, input[type="submit"], input[type="button"], button {
+  background: #ffd700 !important;
+  border: none !important;
+  color: #222 !important;
+  font-weight: bold;
+  border-radius: 6px !important;
+  transition: background 0.2s;
+}
+.btn:hover, input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+  background: #ffbe76 !important;
+  color: #fff !important;
+}
+
+/*----------- Scrollbar -----------*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffd700;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffbe76;
+}
